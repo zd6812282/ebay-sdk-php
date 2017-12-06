@@ -102,6 +102,12 @@ class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTyp
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SortingOrder'
+        ],
+        'DetailLevel' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'DetailLevel'
         ]
     ];
 
